@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/bhp6f86c5dq59zj/squeezenet_model.pkl?dl=1'
+export_file_url = ''
 export_file_name = 'squeezenet_model.pkl'
 
 classes = ['bracelet', 'earrings', 'necklace', 'ring]
